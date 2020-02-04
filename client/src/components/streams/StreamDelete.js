@@ -2,8 +2,8 @@ import React from 'react'
 import Model from '../Model'
 import history from '../../history'
 import { fetchStream, deleteStream } from '../../actions'
-import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 class StreamDelete extends React.Component {
   componentDidMount() {
